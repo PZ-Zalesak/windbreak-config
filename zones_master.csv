@@ -1,0 +1,8 @@
+Country,Category,Specification,Distance,Legal Source,Valid From
+CZ,ELEKTROENERGETIKA,1 kV – 35 kV (bez izolace),7 m,Zákon č. 458/2000 Sb.,2001
+CZ,ELEKTROENERGETIKA,1 kV – 35 kV (izolované),2 m,Zákon č. 458/2000 Sb.,2001
+CZ,ELEKTROENERGETIKA,35 kV – 110 kV,12 m,Zákon č. 458/2000 Sb.,2001
+CZ,PLYNÁRENSTVÍ,Plynovod VTL (do DN 500),4 m,Zákon č. 458/2000 Sb.,2001
+SK,ELEKTROENERGETIKA,Nadzemné vedenie 110 kV,15 m,Zákon č. 251/2012 Z.z.,2012
+SK,PLYNÁRENSTVO,Plynovod VTL,20 m,Zákon č. 251/2012 Z.z.,2012
+EN,POWER INDUSTRY,Overhead lines (HV),10 m,General Standard,2020
