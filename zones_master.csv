@@ -1,8 +1,53 @@
-Country,Category,Specification,Distance,Legal Source,Valid From
-CZ,ELEKTROENERGETIKA,1 kV – 35 kV (bez izolace),7 m,Zákon č. 458/2000 Sb.,2001
-CZ,ELEKTROENERGETIKA,1 kV – 35 kV (izolované),2 m,Zákon č. 458/2000 Sb.,2001
-CZ,ELEKTROENERGETIKA,35 kV – 110 kV,12 m,Zákon č. 458/2000 Sb.,2001
-CZ,PLYNÁRENSTVÍ,Plynovod VTL (do DN 500),4 m,Zákon č. 458/2000 Sb.,2001
-SK,ELEKTROENERGETIKA,Nadzemné vedenie 110 kV,15 m,Zákon č. 251/2012 Z.z.,2012
-SK,PLYNÁRENSTVO,Plynovod VTL,20 m,Zákon č. 251/2012 Z.z.,2012
-EN,POWER INDUSTRY,Overhead lines (HV),10 m,General Standard,2020
+Country,Category (EN/Local),Specification (EN/Local),Original Specification (Detail),Distance,Legal Source,Valid From
+CZ,ELECTRICITY / ELEKTROENERGETIKA,Overhead lines 1 kV - 35 kV (Bare) / Nadzemní vedení VN (bez izolace),od krajního vodiče,7,Zákon č. 458/2000 Sb. § 46,2001
+CZ,ELECTRICITY / ELEKTROENERGETIKA,Overhead lines 1 kV - 35 kV (Insulated) / Nadzemní vedení VN (izolované),od krajního vodiče,2,Zákon č. 458/2000 Sb. § 46,2001
+CZ,ELECTRICITY / ELEKTROENERGETIKA,Overhead lines 35 kV - 110 kV / Nadzemní vedení VVN,od krajního vodiče,12,Zákon č. 458/2000 Sb. § 46,2001
+CZ,ELECTRICITY / ELEKTROENERGETIKA,Overhead lines 110 kV - 220 kV / Nadzemní vedení VVN,od krajního vodiče,15,Zákon č. 458/2000 Sb. § 46,2001
+CZ,ELECTRICITY / ELEKTROENERGETIKA,Overhead lines 220 kV - 400 kV / Nadzemní vedení VVN,od krajního vodiče,20,Zákon č. 458/2000 Sb. § 46,2001
+CZ,ELECTRICITY / ELEKTROENERGETIKA,Overhead lines > 400 kV / Nadzemní vedení ZVN,od krajního vodiče,30,Zákon č. 458/2000 Sb. § 46,2001
+CZ,ELECTRICITY / ELEKTROENERGETIKA,Underground cables < 110 kV / Podzemní vedení NN/VN,od krajního kabelu,1,Zákon č. 458/2000 Sb. § 46,2001
+CZ,GAS / PLYNÁRENSTVÍ,Gas Pipeline NTL/STL / Plynovod NTL/STL v zastavěném území,od půdorysu,1,Zákon č. 458/2000 Sb. § 68,2001
+CZ,GAS / PLYNÁRENSTVÍ,Gas Pipeline VTL up to DN 500 / Plynovod VTL do DN 500,od stěny potrubí,4,Zákon č. 458/2000 Sb. § 68,2001
+CZ,GAS / PLYNÁRENSTVÍ,Gas Pipeline VTL over DN 500 / Plynovod VTL nad DN 500,od stěny potrubí,4,Zákon č. 458/2000 Sb. § 68,2001
+CZ,WATER_SEWAGE / VODOVODY A KANALIZACE,Water mains < 500 mm / Vodovod a kanalizace do DN 500,od vnějšího líce,1.5,Zákon č. 274/2001 Sb. § 23,2002
+CZ,WATER_SEWAGE / VODOVODY A KANALIZACE,Water mains > 500 mm / Vodovod a kanalizace nad DN 500,od vnějšího líce,2.5,Zákon č. 274/2001 Sb. § 23,2002
+CZ,ROADS / DOPRAVA (SILNICE),Highway / Dálnice a silnice I. třídy,od osy vozovky/krajnice,50,Zákon č. 13/1997 Sb. § 30,1997
+CZ,ROADS / DOPRAVA (SILNICE),Class II & III Road / Silnice II. a III. třídy,od osy vozovky/krajnice,15,Zákon č. 13/1997 Sb. § 30,1997
+CZ,RAILWAYS / DRÁHY,Railway lines / Dráha celostátní a regionální,od osy krajní koleje,30,Zákon č. 266/1994 Sb. § 8,1994
+SK,ELECTRICITY / ELEKTRINA,Overhead lines 1 kV - 35 kV (Bare) / Nadzemné vedenie (bez izolácie),v lesných priesekoch 7m,10,Zákon č. 251/2012 Z. z. § 43,2012
+SK,ELECTRICITY / ELEKTRINA,Overhead lines 1 kV - 35 kV (Insulated) / Nadzemné vedenie (izolované),v lesných priesekoch 2m,4,Zákon č. 251/2012 Z. z. § 43,2012
+SK,ELECTRICITY / ELEKTRINA,Overhead lines 35 kV - 110 kV / Nadzemné vedenie VN/VVN,od krajného vodiča,15,Zákon č. 251/2012 Z. z. § 43,2012
+SK,ELECTRICITY / ELEKTRINA,Overhead lines 110 kV - 220 kV / Nadzemné vedenie VVN,od krajného vodiča,20,Zákon č. 251/2012 Z. z. § 43,2012
+SK,ELECTRICITY / ELEKTRINA,Overhead lines 220 kV - 400 kV / Nadzemné vedenie VVN,od krajného vodiča,25,Zákon č. 251/2012 Z. z. § 43,2012
+SK,ELECTRICITY / ELEKTRINA,Overhead lines > 400 kV / Nadzemné vedenie ZVN,od krajného vodiča,35,Zákon č. 251/2012 Z. z. § 43,2012
+SK,GAS / PLYN,Gas Pipeline < 0.4 MPa / Plynovod STL,na každú stranu,4,Zákon č. 251/2012 Z. z. § 79,2012
+SK,GAS / PLYN,Gas Pipeline 0.4 - 4.0 MPa (VTL) / Plynovod VTL do DN 350,na každú stranu,8,Zákon č. 251/2012 Z. z. § 79,2012
+SK,GAS / PLYN,Gas Pipeline > 4.0 MPa (VVTL) / Plynovod VVTL,na každú stranu,50,Zákon č. 251/2012 Z. z. § 79,2012
+SK,ROADS / CESTY,Highway / Diaľnica a rýchlostná cesta,od osi priľahlého jazdného pásu,100,Vyhláška č. 35/1984 Zb. § 15,1984
+SK,ROADS / CESTY,Class I Road / Cesta I. triedy,od osi vozovky,50,Vyhláška č. 35/1984 Zb. § 15,1984
+SK,ROADS / CESTY,Class II Road / Cesta II. triedy,od osi vozovky,25,Vyhláška č. 35/1984 Zb. § 15,1984
+SK,ROADS / CESTY,Class III Road / Cesta III. triedy,od osi vozovky,20,Vyhláška č. 35/1984 Zb. § 15,1984
+SK,RAILWAYS / ŽELEZNICE,Railway lines / Dráha,od osi koľaje,60,Zákon č. 513/2009 Z. z.,2009
+PL,ELECTRICITY / ELEKTRYCZNOŚĆ,Overhead lines < 1 kV / Linie napowietrzne < 1 kV,od skrajnego przewodu,3,PN-E-05100-1:1998,1998
+PL,ELECTRICITY / ELEKTRYCZNOŚĆ,Overhead lines 1 kV - 45 kV / Linie napowietrzne SN,od skrajnego przewodu,5,PN-E-05100-1:1998,1998
+PL,ELECTRICITY / ELEKTRYCZNOŚĆ,Overhead lines 110 kV / Linie napowietrzne WN 110 kV,od skrajnego przewodu,10,PN-E-05100-1:1998,1998
+PL,ELECTRICITY / ELEKTRYCZNOŚĆ,Overhead lines 220 kV / Linie napowietrzne NN 220 kV,od skrajnego przewodu,20,PN-E-05100-1:1998,1998
+PL,ELECTRICITY / ELEKTRYCZNOŚĆ,Overhead lines 400 kV / Linie napowietrzne NN 400 kV,od skrajnego przewodu,30,PN-E-05100-1:1998,1998
+PL,GAS / GAZOWNICTWO,Gas Pipeline DN < 150 / Gazociąg DN < 150,strefa kontrolowana,10,Rozporządzenie Ministra Gospodarki,2013
+PL,GAS / GAZOWNICTWO,Gas Pipeline DN 150 - 300 / Gazociąg DN 150 - 300,strefa kontrolowana,20,Rozporządzenie Ministra Gospodarki,2013
+PL,GAS / GAZOWNICTWO,Gas Pipeline DN > 500 / Gazociąg DN > 500,strefa kontrolowana,50,Rozporządzenie Ministra Gospodarki,2013
+PL,ROADS / DROGI,National Roads / Drogi krajowe,od krawędzi jezdni,25,Ustawa o drogach publicznych,1985
+PL,ROADS / DROGI,Voivodeship Roads / Drogi wojewódzkie,od krawędzi jezdni,15,Ustawa o drogach publicznych,1985
+AT,ELECTRICITY / ELEKTRIZITÄT,Medium Voltage / Mittelspannung,Sicherheitsabstand,5,Starkstromwegegesetz 1968,1968
+AT,ELECTRICITY / ELEKTRIZITÄT,High Voltage > 110 kV / Hochspannung,Sicherheitsabstand,25,ÖVE/ÖNORM EN 50341,2024
+AT,GAS / GASLEITUNGEN,High Pressure Gas / Hochdruckleitungen,Bauverbotsbereich,4,Gaswirtschaftsgesetz 2011,2011
+AT,ROADS / STRASSEN,Federal Roads / Bundesstraßen,Bauverbotsbereich,25,Bundesstraßengesetz 1971,1971
+AT,ROADS / STRASSEN,Autobahn / Autobahn,Bauverbotsbereich,40,Bundesstraßengesetz 1971,1971
+AT,RAILWAYS / EISENBAHN,Railway / Eisenbahn,Gefahrenbereich,25,Eisenbahngesetz 1957,1957
+DE,ELECTRICITY / ELEKTRIZITÄT,Overhead lines < 1 kV / Freileitung < 1 kV,Vegetation clearance,1,VDE 0105-100 / EnWG § 49,2015
+DE,ELECTRICITY / ELEKTRIZITÄT,Overhead lines 1 - 110 kV / Freileitung 1 - 110 kV,Clearance zone,3,VDE 0105-100,2015
+DE,ELECTRICITY / ELEKTRIZITÄT,High Voltage > 110 kV / Hochspannung > 110 kV,from conductor swing,25,DIN EN 50341-3-4,2019
+DE,ROADS / STRASSEN,Federal Roads / Bundesstraßen,Anbauverbot,20,FStrG § 9 Abs. 1 Nr. 2,1953
+DE,ROADS / STRASSEN,Autobahn / Autobahn,Anbauverbot,40,FStrG § 9 Abs. 1 Nr. 1,1953
+DE,RAILWAYS / EISENBAHNEN,Railway / Eisenbahn,Risk area / Gefahrenbereich,25,AEG § 14,1993
+DE,WATER_SEWAGE / WASSER,Water mains / Wasserleitungen,Standard protection,2.5,DVGW W 400-1,2018
