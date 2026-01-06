@@ -11,7 +11,7 @@ CZ,GAS / PLYNÁRENSTVÍ,Gas Pipeline VTL up to DN 500 / Plynovod VTL do DN 500,"
 CZ,GAS / PLYNÁRENSTVÍ,Gas Pipeline VTL over DN 500 / Plynovod VTL nad DN 500,"from pipeline wall / od stěny potrubí",4,Zákon č. 458/2000 Sb. § 68,2001
 CZ,WATER_SEWAGE / VODOVODY A KANALIZACE,Water mains < 500 mm / Vodovod a kanalizace do DN 500,"from outer face / od vnějšího líce",1.5,Zákon č. 274/2001 Sb. § 23,2002
 CZ,WATER_SEWAGE / VODOVODY A KANALIZACE,Water mains > 500 mm / Vodovod a kanalizace nad DN 500,"from outer face / od vnějšího líce",2.5,Zákon č. 274/2001 Sb. § 23,2002
-CZ,WATER_SEWAGE / VODOVODY A KANALIZACE,Water mains (Deep > 2.5m) / Vodovod (Hloubka > 2.5m),"add +1m to base / +1m k základnímu pásmu",3.5,Zákon č. 274/2001 Sb. § 23,2002
+CZ,WATER_SEWAGE / VODOVODY A KANALIZACE,Water mains (Deep > 2.5m) / Vodovod (Hloubka uložení > 2.5m),"add +1m to base zone / +1m k základnímu pásmu",3.5,Zákon č. 274/2001 Sb. § 23,2002
 CZ,ROADS / DOPRAVA (SILNICE),Highway / Dálnice a silnice I. třídy,"from road axis or edge / od osy vozovky/krajnice",50,Zákon č. 13/1997 Sb. § 30,1997
 CZ,ROADS / DOPRAVA (SILNICE),Class II & III Road / Silnice II. a III. třídy,"from road axis or edge / od osy vozovky/krajnice",15,Zákon č. 13/1997 Sb. § 30,1997
 CZ,RAILWAYS / DRÁHY,Railway lines / Dráha celostátní a regionální,"from axis of outer track / od osy krajní koleje",30,Zákon č. 266/1994 Sb. § 8,1994
@@ -47,18 +47,20 @@ PL,GAS / GAZOWNICTWO,Gas Pipeline DN 150 - 300 / Gazociąg DN 150 - 300,"control
 PL,GAS / GAZOWNICTWO,Gas Pipeline DN > 500 / Gazociąg DN > 500,"controlled zone / strefa kontrolowana",50,Rozporządzenie Ministra Gospodarki,2013
 PL,ROADS / DROGI,National Roads / Drogi krajowe,"from edge of carriageway / od krawędzi jezdni",25,Ustawa o drogach publicznych,1985
 PL,ROADS / DROGI,Voivodeship Roads / Drogi wojewódzkie,"from edge of carriageway / od krawędzi jezdni",15,Ustawa o drogach publicznych,1985
-PL,RAILWAYS / KOLEJE,Railway lines / Linie kolejowe,"from track axis / od osi toru",10,Ustawa o transporcie kolejowym,2003
+PL,RAILWAYS / KOLEJE,Railway lines / Linie kolejowe (Plants),"from track axis / od osi toru (dla drzew)",15,Ustawa o transporcie kolejowym,2003
 AT,ELECTRICITY / ELEKTRIZITÄT,Medium Voltage / Mittelspannung,"safety distance / Sicherheitsabstand",5,Starkstromwegegesetz 1968,1968
 AT,ELECTRICITY / ELEKTRIZITÄT,High Voltage > 110 kV / Hochspannung,"safety distance / Sicherheitsabstand",25,ÖVE/ÖNORM EN 50341,2024
 AT,GAS / GASLEITUNGEN,High Pressure Gas / Hochdruckleitungen,"building ban area / Bauverbotsbereich",4,Gaswirtschaftsgesetz 2011,2011
 AT,ROADS / STRASSEN,Federal Roads / Bundesstraßen,"building ban area / Bauverbotsbereich",25,Bundesstraßengesetz 1971,1971
 AT,ROADS / STRASSEN,Autobahn / Autobahn,"building ban area / Bauverbotsbereich",40,Bundesstraßengesetz 1971,1971
 AT,RAILWAYS / EISENBAHN,Railway / Eisenbahn,"danger zone / Gefahrenbereich",25,Eisenbahngesetz 1957,1957
+AT,FOREST / WALD,Proximity to Forest / Waldnähe,"falling tree risk zone / Gefahrenzone umstürzender Bäume",30,Forstgesetz 1975 § 14,1975
 DE,ELECTRICITY / ELEKTRIZITÄT,Overhead lines < 1 kV / Freileitung < 1 kV,"vegetation clearance / Schutzabstand",1,VDE 0105-100 / EnWG § 49,2015
 DE,ELECTRICITY / ELEKTRIZITÄT,Overhead lines 1 - 110 kV / Freileitung 1 - 110 kV,"clearance zone / Schutzbereich",3,VDE 0105-100,2015
 DE,ELECTRICITY / ELEKTRIZITÄT,High Voltage > 110 kV / Hochspannung > 110 kV,"from conductor swing / vom ausgeschwungenen Seil",25,DIN EN 50341-3-4,2019
 DE,ROADS / STRASSEN,Federal Roads / Bundesstraßen,"building ban / Anbauverbot",20,FStrG § 9 Abs. 1 Nr. 2,1953
 DE,ROADS / STRASSEN,Autobahn / Autobahn,"building ban / Anbauverbot",40,FStrG § 9 Abs. 1 Nr. 1,1953
+DE,ROADS / STRASSEN,Traffic Safety Trees / Verkehrssicherheit Bäume,"obstacle free zone / Hindernisfreier Raum",7.5,RPS 2009,2009
 DE,RAILWAYS / EISENBAHNEN,Railway / Eisenbahn,"risk area / Gefahrenbereich",25,AEG § 14,1993
 DE,WATER_SEWAGE / WASSER,Water mains (Standard) / Wasserleitungen (Standard),"standard protection / Schutzstreifen",2.5,DVGW W 400-1,2018
 DE,WATER_SEWAGE / WASSER,Water mains (Protected) / Wasserleitungen (Geschützt),"with protective sleeve / mit Schutzrohr",1.5,DVGW W 400-1,2018
