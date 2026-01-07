@@ -45,7 +45,7 @@ SK,ROADS / CESTY,Class III Road / Cesta III. triedy,from road axis / od osi vozo
 SK,RAILWAYS / ŽELEZNICE,Railway lines / Dráha,from track axis / od osi koľaje,60,"Zákon č. 513/2009 Z. z.",2009,-,-,-,-
 SK,TELECOM / TELEKOMUNIKÁCIE,Underground lines / Podzemné vedenie,plus maintenance duty / plus povinnosť údržby,0.5,"Zákon č. 452/2021 Z. z. § 23",2022,"Zákon č. 452/2021 Z.z.",1 000 EUR,2% of turnover,"Fine up to 2% of turnover or 300k EUR / Sankcia až do 2 % z obratu alebo 300 000 EUR."
 PL,ELECTRICITY / ELEKTRYCZNOŚĆ,Overhead lines < 1 kV / Linie napowietrzne < 1 kV,from outer conductor / od skrajnego przewodu,3,PN-E-05100-1:1998,1998,-,-,-,-
-PL,ELECTRICITY / ELEKTRYCZNOŚĆ,Overhead lines 1 kV - 45 kV / Linie napowietrzne SN,from outer conductor / od skrajnego przewodu,5,PN-E-05100-1:1998,1998,Pr. energ. Art. 56,(Art. 56 – administrative fines according to the regulator's decision) / (art. 56 – kary administracyjne na podstawie decyzji organu nadzoru).
+PL,ELECTRICITY / ELEKTRYCZNOŚĆ,Overhead lines 1 kV - 45 kV / Linie napowietrzne SN,from outer conductor / od skrajnego przewodu,5,PN-E-05100-1:1998,1998,Pr. energ. Art. 56,(Art. 56 – administrative fines according to the regulator's decision) / (art. 56 – kary administracyjne na podstawie decyzji organu nadzoru),-.
 PL,ELECTRICITY / ELEKTRYCZNOŚĆ,Overhead lines 110 kV / Linie napowietrzne WN 110 kV,from outer conductor / od skrajnego przewodu,10,PN-E-05100-1:1998,1998,-,-,-,-
 PL,ELECTRICITY / ELEKTRYCZNOŚĆ,Overhead lines 220 kV / Linie napowietrzne NN 220 kV,from outer conductor / od skrajnego przewodu,20,PN-E-05100-1:1998,1998,-,-,-,-
 PL,ELECTRICITY / ELEKTRYCZNOŚĆ,Overhead lines 400 kV / Linie napowietrzne NN 400 kV,from outer conductor / od skrajnego przewodu,30,PN-E-05100-1:1998,1998,-,-,-,-
