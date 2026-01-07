@@ -1,69 +1,71 @@
-Country,Sector,Asset,Distance,Unit,Legal Source,Source Type,Legal Certainty Level,Risk Flag,Category (EN/Local),Specification (EN/Local),Original Specification (Detail),Legal Source (Sanction),Max. Sanction (FO),Max. Sanction (PO/PFO),Sanction Note (EN/Local),Legal Certainty,Risk Comment
-CZ,ELECTRICITY,Overhead lines <1 kV,1.0,m,PNE 33 0000-6,Technical,MEDIUM,YES,,,,,,,,MEDIUM,Technical norm or interpretation â€“ authority approval recommended / TechnickÃ¡ norma nebo vÃ½klad â€“ doporuÄeno stanovisko ÃºÅ™adu
-CZ,ELECTRICITY,Overhead lines 1â€“35 kV (bare),7.0,m,ZÃ¡kon 458/2000 Sb. Â§46,Law,HIGH,NO,,,,,,,,HIGH,Explicit statutory protection zone / VÃ½slovnÄ› stanovenÃ© zÃ¡konnÃ© ochrannÃ© pÃ¡smo
-CZ,ELECTRICITY,Overhead lines 1â€“35 kV (insulated),2.0,m,ZÃ¡kon 458/2000 Sb. Â§46,Law,HIGH,NO,,,,,,,,HIGH,Explicit statutory protection zone / VÃ½slovnÄ› stanovenÃ© zÃ¡konnÃ© ochrannÃ© pÃ¡smo
-CZ,ELECTRICITY,Overhead lines 35â€“110 kV,12.0,m,ZÃ¡kon 458/2000 Sb. Â§46,Law,HIGH,NO,,,,,,,,HIGH,Explicit statutory protection zone / VÃ½slovnÄ› stanovenÃ© zÃ¡konnÃ© ochrannÃ© pÃ¡smo
-CZ,ELECTRICITY,Overhead lines 110â€“220 kV,15.0,m,ZÃ¡kon 458/2000 Sb. Â§46,Law,HIGH,NO,,,,,,,,HIGH,Explicit statutory protection zone / VÃ½slovnÄ› stanovenÃ© zÃ¡konnÃ© ochrannÃ© pÃ¡smo
-CZ,ELECTRICITY,Overhead lines 220â€“400 kV,20.0,m,ZÃ¡kon 458/2000 Sb. Â§46,Law,HIGH,NO,,,,,,,,HIGH,Explicit statutory protection zone / VÃ½slovnÄ› stanovenÃ© zÃ¡konnÃ© ochrannÃ© pÃ¡smo
-CZ,ELECTRICITY,Overhead lines >400 kV,30.0,m,ZÃ¡kon 458/2000 Sb. Â§46,Law,HIGH,NO,,,,,,,,HIGH,Explicit statutory protection zone / VÃ½slovnÄ› stanovenÃ© zÃ¡konnÃ© ochrannÃ© pÃ¡smo
-CZ,ELECTRICITY,Underground cables <110 kV,1.0,m,ZÃ¡kon 458/2000 Sb. Â§46,Law,HIGH,NO,,,,,,,,HIGH,Explicit statutory protection zone / VÃ½slovnÄ› stanovenÃ© zÃ¡konnÃ© ochrannÃ© pÃ¡smo
-CZ,ELECTRICITY,Underground cables >110 kV,3.0,m,ZÃ¡kon 458/2000 Sb. Â§46,Law,HIGH,NO,,,,,,,,HIGH,Explicit statutory protection zone / VÃ½slovnÄ› stanovenÃ© zÃ¡konnÃ© ochrannÃ© pÃ¡smo
-CZ,GAS,Gas pipelines NTL/STL urban,1.0,m,ZÃ¡kon 458/2000 Sb. Â§68,Law,HIGH,NO,,,,,,,,HIGH,Explicit statutory protection zone / VÃ½slovnÄ› stanovenÃ© zÃ¡konnÃ© ochrannÃ© pÃ¡smo
-CZ,GAS,Gas pipelines NTL/STL rural,2.0,m,ZÃ¡kon 458/2000 Sb. Â§68,Law,HIGH,NO,,,,,,,,HIGH,Explicit statutory protection zone / VÃ½slovnÄ› stanovenÃ© zÃ¡konnÃ© ochrannÃ© pÃ¡smo
-CZ,GAS,Gas pipelines VTL,4.0,m,ZÃ¡kon 458/2000 Sb. Â§68,Law,HIGH,NO,,,,,,,,HIGH,Explicit statutory protection zone / VÃ½slovnÄ› stanovenÃ© zÃ¡konnÃ© ochrannÃ© pÃ¡smo
-CZ,WATER,Water/sewer â‰¤500 mm,1.5,m,ZÃ¡kon 274/2001 Sb. Â§23,Law,HIGH,NO,,,,,,,,HIGH,Explicit statutory protection zone / VÃ½slovnÄ› stanovenÃ© zÃ¡konnÃ© ochrannÃ© pÃ¡smo
-CZ,WATER,Water/sewer >500 mm,2.5,m,ZÃ¡kon 274/2001 Sb. Â§23,Law,HIGH,NO,,,,,,,,HIGH,Explicit statutory protection zone / VÃ½slovnÄ› stanovenÃ© zÃ¡konnÃ© ochrannÃ© pÃ¡smo
-CZ,ROADS,Highway & class I,50.0,m,ZÃ¡kon 13/1997 Sb. Â§30,Law,HIGH,NO,,,,,,,,HIGH,Explicit statutory protection zone / VÃ½slovnÄ› stanovenÃ© zÃ¡konnÃ© ochrannÃ© pÃ¡smo
-CZ,ROADS,Class II & III,15.0,m,ZÃ¡kon 13/1997 Sb. Â§30,Law,HIGH,NO,,,,,,,,HIGH,Explicit statutory protection zone / VÃ½slovnÄ› stanovenÃ© zÃ¡konnÃ© ochrannÃ© pÃ¡smo
-CZ,RAIL,Railway,30.0,m,ZÃ¡kon 266/1994 Sb. Â§8,Law,HIGH,NO,,,,,,,,HIGH,Explicit statutory protection zone / VÃ½slovnÄ› stanovenÃ© zÃ¡konnÃ© ochrannÃ© pÃ¡smo
-CZ,HEATING,District heating,2.5,m,ZÃ¡kon 458/2000 Sb. Â§87,Law,HIGH,NO,,,,,,,,HIGH,Explicit statutory protection zone / VÃ½slovnÄ› stanovenÃ© zÃ¡konnÃ© ochrannÃ© pÃ¡smo
-CZ,TELECOM,Underground telecom,0.5,m,ZÃ¡kon 127/2005 Sb. Â§102,Law,HIGH,NO,,,,,,,,HIGH,Explicit statutory protection zone / VÃ½slovnÄ› stanovenÃ© zÃ¡konnÃ© ochrannÃ© pÃ¡smo
-SK,ELECTRICITY,Overhead lines 1â€“35 kV (bare),10.0,m,ZÃ¡kon 251/2012 Z.z. Â§43,Law,HIGH,NO,,,,,,,,HIGH,Explicit statutory protection zone / VÃ½slovnÄ› stanovenÃ© zÃ¡konnÃ© ochrannÃ© pÃ¡smo
-SK,ELECTRICITY,"Overhead lines 1â€“35 kV (bare, forest)",7.0,m,ZÃ¡kon 251/2012 Z.z. Â§43,Law,HIGH,NO,,,,,,,,HIGH,Explicit statutory protection zone / VÃ½slovnÄ› stanovenÃ© zÃ¡konnÃ© ochrannÃ© pÃ¡smo
-SK,ELECTRICITY,Overhead lines 1â€“35 kV (insulated),4.0,m,ZÃ¡kon 251/2012 Z.z. Â§43,Law,HIGH,NO,,,,,,,,HIGH,Explicit statutory protection zone / VÃ½slovnÄ› stanovenÃ© zÃ¡konnÃ© ochrannÃ© pÃ¡smo
-SK,ELECTRICITY,"Overhead lines 1â€“35 kV (insulated, forest)",2.0,m,ZÃ¡kon 251/2012 Z.z. Â§43,Law,HIGH,NO,,,,,,,,HIGH,Explicit statutory protection zone / VÃ½slovnÄ› stanovenÃ© zÃ¡konnÃ© ochrannÃ© pÃ¡smo
-SK,ELECTRICITY,Overhead lines 35â€“110 kV,15.0,m,ZÃ¡kon 251/2012 Z.z. Â§43,Law,HIGH,NO,,,,,,,,HIGH,Explicit statutory protection zone / VÃ½slovnÄ› stanovenÃ© zÃ¡konnÃ© ochrannÃ© pÃ¡smo
-SK,ELECTRICITY,Overhead lines 110â€“220 kV,20.0,m,ZÃ¡kon 251/2012 Z.z. Â§43,Law,HIGH,NO,,,,,,,,HIGH,Explicit statutory protection zone / VÃ½slovnÄ› stanovenÃ© zÃ¡konnÃ© ochrannÃ© pÃ¡smo
-SK,ELECTRICITY,Overhead lines 220â€“400 kV,25.0,m,ZÃ¡kon 251/2012 Z.z. Â§43,Law,HIGH,NO,,,,,,,,HIGH,Explicit statutory protection zone / VÃ½slovnÄ› stanovenÃ© zÃ¡konnÃ© ochrannÃ© pÃ¡smo
-SK,ELECTRICITY,Overhead lines >400 kV,35.0,m,ZÃ¡kon 251/2012 Z.z. Â§43,Law,HIGH,NO,,,,,,,,HIGH,Explicit statutory protection zone / VÃ½slovnÄ› stanovenÃ© zÃ¡konnÃ© ochrannÃ© pÃ¡smo
-SK,GAS,Gas pipelines DN â‰¤200,4.0,m,ZÃ¡kon 251/2012 Z.z. Â§79,Law,HIGH,YES,,,,,,,,HIGH,Technical norm or interpretation â€“ authority approval recommended / TechnickÃ¡ norma nebo vÃ½klad â€“ doporuÄeno stanovisko ÃºÅ™adu
-SK,GAS,Gas pipelines DN 201â€“500,8.0,m,ZÃ¡kon 251/2012 Z.z. Â§79,Law,HIGH,YES,,,,,,,,HIGH,Technical norm or interpretation â€“ authority approval recommended / TechnickÃ¡ norma nebo vÃ½klad â€“ doporuÄeno stanovisko ÃºÅ™adu
-SK,GAS,Gas pipelines DN 501â€“700,12.0,m,ZÃ¡kon 251/2012 Z.z. Â§79,Law,HIGH,YES,,,,,,,,HIGH,Technical norm or interpretation â€“ authority approval recommended / TechnickÃ¡ norma nebo vÃ½klad â€“ doporuÄeno stanovisko ÃºÅ™adu
-SK,GAS,Gas pipelines DN >700,50.0,m,ZÃ¡kon 251/2012 Z.z. Â§79,Law,HIGH,YES,,,,,,,,HIGH,Technical norm or interpretation â€“ authority approval recommended / TechnickÃ¡ norma nebo vÃ½klad â€“ doporuÄeno stanovisko ÃºÅ™adu
-SK,WATER,Water/sewer â‰¤500 mm,1.8,m,ZÃ¡kon 442/2002 Z.z. Â§19,Law,HIGH,NO,,,,,,,,HIGH,Explicit statutory protection zone / VÃ½slovnÄ› stanovenÃ© zÃ¡konnÃ© ochrannÃ© pÃ¡smo
-SK,WATER,Water/sewer >500 mm,3.0,m,ZÃ¡kon 442/2002 Z.z. Â§19,Law,HIGH,NO,,,,,,,,HIGH,Explicit statutory protection zone / VÃ½slovnÄ› stanovenÃ© zÃ¡konnÃ© ochrannÃ© pÃ¡smo
-SK,ROADS,Highway,100.0,m,Vyhl. 35/1984 Zb. Â§15,Law,HIGH,NO,,,,,,,,HIGH,Explicit statutory protection zone / VÃ½slovnÄ› stanovenÃ© zÃ¡konnÃ© ochrannÃ© pÃ¡smo
-SK,ROADS,Class I,50.0,m,Vyhl. 35/1984 Zb. Â§15,Law,HIGH,NO,,,,,,,,HIGH,Explicit statutory protection zone / VÃ½slovnÄ› stanovenÃ© zÃ¡konnÃ© ochrannÃ© pÃ¡smo
-SK,ROADS,Class II,25.0,m,Vyhl. 35/1984 Zb. Â§15,Law,HIGH,NO,,,,,,,,HIGH,Explicit statutory protection zone / VÃ½slovnÄ› stanovenÃ© zÃ¡konnÃ© ochrannÃ© pÃ¡smo
-SK,ROADS,Class III,20.0,m,Vyhl. 35/1984 Zb. Â§15,Law,HIGH,NO,,,,,,,,HIGH,Explicit statutory protection zone / VÃ½slovnÄ› stanovenÃ© zÃ¡konnÃ© ochrannÃ© pÃ¡smo
-SK,RAIL,Railway,60.0,m,ZÃ¡kon 513/2009 Z.z.,Law,HIGH,YES,,,,,,,,HIGH,Technical norm or interpretation â€“ authority approval recommended / TechnickÃ¡ norma nebo vÃ½klad â€“ doporuÄeno stanovisko ÃºÅ™adu
-SK,HEATING,Heating urban,1.0,m,ZÃ¡kon 657/2004 Z.z. Â§36,Law,HIGH,NO,,,,,,,,HIGH,Explicit statutory protection zone / VÃ½slovnÄ› stanovenÃ© zÃ¡konnÃ© ochrannÃ© pÃ¡smo
-SK,HEATING,Heating rural,3.0,m,ZÃ¡kon 657/2004 Z.z. Â§36,Law,HIGH,NO,,,,,,,,HIGH,Explicit statutory protection zone / VÃ½slovnÄ› stanovenÃ© zÃ¡konnÃ© ochrannÃ© pÃ¡smo
-SK,TELECOM,Telecom underground,0.5,m,ZÃ¡kon 452/2021 Z.z. Â§23,Law,HIGH,NO,,,,,,,,HIGH,Explicit statutory protection zone / VÃ½slovnÄ› stanovenÃ© zÃ¡konnÃ© ochrannÃ© pÃ¡smo
-PL,ELECTRICITY,Overhead lines <1 kV,3.0,m,PN-E-05100-1,Technical,MEDIUM,YES,,,,,,,,MEDIUM,Technical norm or interpretation â€“ authority approval recommended / TechnickÃ¡ norma nebo vÃ½klad â€“ doporuÄeno stanovisko ÃºÅ™adu
-PL,ELECTRICITY,Overhead lines 1â€“45 kV,5.0,m,PN-E-05100-1,Technical,MEDIUM,YES,,,,,,,,MEDIUM,Technical norm or interpretation â€“ authority approval recommended / TechnickÃ¡ norma nebo vÃ½klad â€“ doporuÄeno stanovisko ÃºÅ™adu
-PL,ELECTRICITY,Overhead lines 110 kV,10.0,m,PN-E-05100-1,Technical,MEDIUM,YES,,,,,,,,MEDIUM,Technical norm or interpretation â€“ authority approval recommended / TechnickÃ¡ norma nebo vÃ½klad â€“ doporuÄeno stanovisko ÃºÅ™adu
-PL,ELECTRICITY,Overhead lines 220 kV,20.0,m,PN-E-05100-1,Technical,MEDIUM,YES,,,,,,,,MEDIUM,Technical norm or interpretation â€“ authority approval recommended / TechnickÃ¡ norma nebo vÃ½klad â€“ doporuÄeno stanovisko ÃºÅ™adu
-PL,ELECTRICITY,Overhead lines 400 kV,30.0,m,PN-E-05100-1,Technical,MEDIUM,YES,,,,,,,,MEDIUM,Technical norm or interpretation â€“ authority approval recommended / TechnickÃ¡ norma nebo vÃ½klad â€“ doporuÄeno stanovisko ÃºÅ™adu
-PL,GAS,Gas pipeline DN <150,10.0,m,Rozp. MG 2013,Law,HIGH,NO,,,,,,,,HIGH,Explicit statutory protection zone / VÃ½slovnÄ› stanovenÃ© zÃ¡konnÃ© ochrannÃ© pÃ¡smo
-PL,GAS,Gas pipeline DN 150â€“300,20.0,m,Rozp. MG 2013,Law,HIGH,NO,,,,,,,,HIGH,Explicit statutory protection zone / VÃ½slovnÄ› stanovenÃ© zÃ¡konnÃ© ochrannÃ© pÃ¡smo
-PL,GAS,Gas pipeline DN >500,50.0,m,Rozp. MG 2013,Law,HIGH,NO,,,,,,,,HIGH,Explicit statutory protection zone / VÃ½slovnÄ› stanovenÃ© zÃ¡konnÃ© ochrannÃ© pÃ¡smo
-PL,ROADS,National roads,25.0,m,Ustawa o drogach,Law,HIGH,NO,,,,,,,,HIGH,Explicit statutory protection zone / VÃ½slovnÄ› stanovenÃ© zÃ¡konnÃ© ochrannÃ© pÃ¡smo
-PL,ROADS,Voivodeship roads,15.0,m,Ustawa o drogach,Law,HIGH,NO,,,,,,,,HIGH,Explicit statutory protection zone / VÃ½slovnÄ› stanovenÃ© zÃ¡konnÃ© ochrannÃ© pÃ¡smo
-PL,RAIL,Railway (trees),15.0,m,Ustawa o transp. kolej.,Law,HIGH,NO,,,,,,,,HIGH,Explicit statutory protection zone / VÃ½slovnÄ› stanovenÃ© zÃ¡konnÃ© ochrannÃ© pÃ¡smo
-AT,ELECTRICITY,Medium voltage,5.0,m,StarkstromwegeG 1968,Law,HIGH,NO,,,,,,,,HIGH,Explicit statutory protection zone / VÃ½slovnÄ› stanovenÃ© zÃ¡konnÃ© ochrannÃ© pÃ¡smo
-AT,ELECTRICITY,High voltage >110 kV,25.0,m,Ã–VE/Ã–NORM EN 50341,Technical,HIGH,NO,,,,,,,,HIGH,Explicit statutory protection zone / VÃ½slovnÄ› stanovenÃ© zÃ¡konnÃ© ochrannÃ© pÃ¡smo
-AT,GAS,High pressure gas,4.0,m,GWG 2011,Law,HIGH,NO,,,,,,,,HIGH,Explicit statutory protection zone / VÃ½slovnÄ› stanovenÃ© zÃ¡konnÃ© ochrannÃ© pÃ¡smo
-AT,ROADS,Federal roads,25.0,m,BundesstraÃŸenG 1971,Law,HIGH,NO,,,,,,,,HIGH,Explicit statutory protection zone / VÃ½slovnÄ› stanovenÃ© zÃ¡konnÃ© ochrannÃ© pÃ¡smo
-AT,ROADS,Autobahn,40.0,m,BundesstraÃŸenG 1971,Law,HIGH,NO,,,,,,,,HIGH,Explicit statutory protection zone / VÃ½slovnÄ› stanovenÃ© zÃ¡konnÃ© ochrannÃ© pÃ¡smo
-AT,RAIL,Railway,25.0,m,EisenbahnG 1957,Law,HIGH,NO,,,,,,,,HIGH,Explicit statutory protection zone / VÃ½slovnÄ› stanovenÃ© zÃ¡konnÃ© ochrannÃ© pÃ¡smo
-AT,FOREST,Forest proximity,30.0,m,ForstG 1975 Â§14,Law,HIGH,NO,,,,,,,,HIGH,Explicit statutory protection zone / VÃ½slovnÄ› stanovenÃ© zÃ¡konnÃ© ochrannÃ© pÃ¡smo
-DE,ELECTRICITY,Overhead lines <1 kV,1.0,m,VDE 0105-100,Technical,MEDIUM,YES,,,,,,,,MEDIUM,Technical norm or interpretation â€“ authority approval recommended / TechnickÃ¡ norma nebo vÃ½klad â€“ doporuÄeno stanovisko ÃºÅ™adu
-DE,ELECTRICITY,Overhead lines 1â€“110 kV,3.0,m,VDE 0105-100,Technical,MEDIUM,YES,,,,,,,,MEDIUM,Technical norm or interpretation â€“ authority approval recommended / TechnickÃ¡ norma nebo vÃ½klad â€“ doporuÄeno stanovisko ÃºÅ™adu
-DE,ELECTRICITY,Overhead lines >110 kV,25.0,m,DIN EN 50341,Technical,HIGH,NO,,,,,,,,HIGH,Explicit statutory protection zone / VÃ½slovnÄ› stanovenÃ© zÃ¡konnÃ© ochrannÃ© pÃ¡smo
-DE,ROADS,Federal roads,20.0,m,FStrG Â§9,Law,HIGH,NO,,,,,,,,HIGH,Explicit statutory protection zone / VÃ½slovnÄ› stanovenÃ© zÃ¡konnÃ© ochrannÃ© pÃ¡smo
-DE,ROADS,Autobahn,40.0,m,FStrG Â§9,Law,HIGH,NO,,,,,,,,HIGH,Explicit statutory protection zone / VÃ½slovnÄ› stanovenÃ© zÃ¡konnÃ© ochrannÃ© pÃ¡smo
-DE,ROADS,Traffic safety trees,7.5,m,RPS 2009,Technical,MEDIUM,YES,,,,,,,,MEDIUM,Technical norm or interpretation â€“ authority approval recommended / TechnickÃ¡ norma nebo vÃ½klad â€“ doporuÄeno stanovisko ÃºÅ™adu
-DE,RAIL,Railway,25.0,m,AEG Â§14,Law,MEDIUM,YES,,,,,,,,MEDIUM,Technical norm or interpretation â€“ authority approval recommended / TechnickÃ¡ norma nebo vÃ½klad â€“ doporuÄeno stanovisko ÃºÅ™adu
-DE,WATER,Water pipes standard,2.5,m,DVGW W400-1,Technical,HIGH,NO,,,,,,,,HIGH,Explicit statutory protection zone / VÃ½slovnÄ› stanovenÃ© zÃ¡konnÃ© ochrannÃ© pÃ¡smo
-DE,WATER,Water pipes protected,1.5,m,DVGW W400-1,Technical,HIGH,NO,,,,,,,,HIGH,Explicit statutory protection zone / VÃ½slovnÄ› stanovenÃ© zÃ¡konnÃ© ochrannÃ© pÃ¡smo
+Country	Category (EN/Local)	Specification (EN/Local)	Original Specification (Detail)	Distance (m)	Legal Source (Technical)	Valid From	Legal Source (Sanction)	Max. Sanction (FO)	Max. Sanction (PO/PFO)	Sanction Note (EN/Local)
+CZ	ELECTRICITY / ELEKTROENERGETIKA	Overhead lines < 1 kV (NN) / Nadzemní vedení NN (do 1 kV)	safe distance / bezpečná vzdálenost	1	PNE 33 0000-6	-	Zák. 458/2000 Sb. § 91a	100 000 CZK	15 000 000 CZK	Violation of protection zone or equipment damage / Porušení ochranného pásma nebo poškození zařízení.
+CZ	ELECTRICITY / ELEKTROENERGETIKA	Overhead lines 1 kV - 35 kV (Bare) / Nadzemní vedení VN (bez izolace)	from outer conductor / od krajního vodiče	7	Zákon č. 458/2000 Sb. § 46	2001	Zák. 458/2000 Sb. § 91a	100 000 CZK	15 000 000 CZK	Fine for unauthorized activity in zone / Sankce za činnost v ochranném pásmu bez souhlasu.
+CZ	ELECTRICITY / ELEKTROENERGETIKA	Overhead lines 1 kV - 35 kV (Insulated) / Nadzemní vedení VN (izolované)	from outer conductor / od krajního vodiče	2	Zákon č. 458/2000 Sb. § 46	2001	Zák. 458/2000 Sb. § 91a	100 000 CZK	15 000 000 CZK	Fine for unauthorized activity in zone / Sankce za činnost v ochranném pásmu bez souhlasu.
+CZ	ELECTRICITY / ELEKTROENERGETIKA	Overhead lines 35 kV - 110 kV / Nadzemní vedení VVN	from outer conductor / od krajního vodiče	12	Zákon č. 458/2000 Sb. § 46	2001	Zák. 458/2000 Sb. § 91a	100 000 CZK	15 000 000 CZK	Fine for vegetation over 3m / Sankce i za pěstování porostů nad 3m.
+CZ	ELECTRICITY / ELEKTROENERGETIKA	Overhead lines 110 kV - 220 kV / Nadzemní vedení VVN	from outer conductor / od krajního vodiče	15	Zákon č. 458/2000 Sb. § 46	2001	Zák. 458/2000 Sb. § 91a	100 000 CZK	15 000 000 CZK	Fine for vegetation over 3m / Sankce i za pěstování porostů nad 3m.
+CZ	ELECTRICITY / ELEKTROENERGETIKA	Overhead lines 220 kV - 400 kV / Nadzemní vedení VVN	from outer conductor / od krajního vodiče	20	Zákon č. 458/2000 Sb. § 46	2001	Zák. 458/2000 Sb. § 91a	100 000 CZK	15 000 000 CZK	Fine for vegetation over 3m / Sankce i za pěstování porostů nad 3m.
+CZ	ELECTRICITY / ELEKTROENERGETIKA	Overhead lines > 400 kV / Nadzemní vedení ZVN	from outer conductor / od krajního vodiče	30	Zákon č. 458/2000 Sb. § 46	2001	Zák. 458/2000 Sb. § 91a	100 000 CZK	15 000 000 CZK	Fine for vegetation over 3m / Sankce i za pěstování porostů nad 3m.
+CZ	ELECTRICITY / ELEKTROENERGETIKA	Underground cables < 110 kV / Podzemní vedení NN/VN	from outer cable / od krajního kabelu	1	Zákon č. 458/2000 Sb. § 46	2001	Zák. 458/2000 Sb. § 91a	100 000 CZK	15 000 000 CZK	Prohibition of planting permanent vegetation / Zákaz výsadby trvalých porostů.
+CZ	ELECTRICITY / ELEKTROENERGETIKA	Underground cables > 110 kV / Podzemní vedení VVN/ZVN	from outer cable / od krajního kabelu	3	Zákon č. 458/2000 Sb. § 46	2001	Zák. 458/2000 Sb. § 91a	100 000 CZK	15 000 000 CZK	Prohibition of planting permanent vegetation / Zákaz výsadby trvalých porostů.
+CZ	GAS / PLYNÁRENSTVÍ	Gas Pipeline NTL/STL (Urban) / Plynovod NTL/STL (v zastavěném území)	from plan view / od půdorysu	1	Zákon č. 458/2000 Sb. § 68	2001	Zák. 458/2000 Sb. § 91a	100 000 CZK	15 000 000 CZK	Sanctions for leaks and mechanical damage / Trestání úniků a mechanického poškození.
+CZ	GAS / PLYNÁRENSTVÍ	Gas Pipeline NTL/STL (Rural) / Plynovod NTL/STL (ve volném pruhu)	from plan view / od půdorysu	2	Zákon č. 458/2000 Sb. § 68	2001	Zák. 458/2000 Sb. § 91a	100 000 CZK	15 000 000 CZK	Sanctions for leaks and mechanical damage / Trestání úniků a mechanického poškození.
+CZ	GAS / PLYNÁRENSTVÍ	Gas Pipeline VTL up to DN 500 / Plynovod VTL do DN 500	from pipeline wall / od stěny potrubí	4	Zákon č. 458/2000 Sb. § 68	2001	Zák. 458/2000 Sb. § 91a	100 000 CZK	15 000 000 CZK	Strict ban on planting deep-rooting trees / Přísný zákaz výsadby hlubokokořenících dřevin.
+CZ	GAS / PLYNÁRENSTVÍ	Gas Pipeline VTL over DN 500 / Plynovod VTL nad DN 500	from pipeline wall / od stěny potrubí	4	Zákon č. 458/2000 Sb. § 68	2001	-	-	-	-
+CZ	WATER_SEWAGE / VODOVODY A KANALIZACE	Water mains < 500 mm / Vodovod a kanalizace do DN 500	from outer face / od vnějšího líce	1.5	Zákon č. 274/2001 Sb. § 23	2002	Zák. 274/2001 Sb. § 32/33	50 000 CZK	200 000 CZK	Higher rate for endangering public supply / Vyšší sazba při ohrožení veřejného zásobování vodou.
+CZ	WATER_SEWAGE / VODOVODY A KANALIZACE	Water mains > 500 mm / Vodovod a kanalizace nad DN 500	from outer face / od vnějšího líce	2.5	Zákon č. 274/2001 Sb. § 23	2002	-	-	-	-
+CZ	WATER_SEWAGE / VODOVODY A KANALIZACE	Water mains (Deep > 2.5m) / Vodovod (Hloubka uložení > 2.5m)	add +1m to base zone / +1m k základnímu pásmu	3.5	Zákon č. 274/2001 Sb. § 23	2002	-	-	-	-
+CZ	ROADS / DOPRAVA (SILNICE)	Highway / Dálnice a silnice I. třídy	from road axis or edge / od osy vozovky/krajnice	50	Zákon č. 13/1997 Sb. § 30	1997	Zák. 13/1997 Sb. § 42a/b	500 000 CZK	500 000 CZK	Risk to road safety; solid obstacles / Ohrožení bezpečnosti silničního provozu; pevné překážky.
+CZ	ROADS / DOPRAVA (SILNICE)	Class II & III Road / Silnice II. a III. třídy	from road axis or edge / od osy vozovky/krajnice	15	Zákon č. 13/1997 Sb. § 30	1997	-	-	-	-
+CZ	RAILWAYS / DRÁHY	Railway lines / Dráha celostátní a regionální	from axis of outer track / od osy krajní koleje	30	Zákon č. 266/1994 Sb. § 8	1994	Zák. 266/1994 Sb. § 50	1 000 000 CZK	10 000 000 CZK	Extreme rate for rail hazard (tree fall) / Extrémní sazba při ohrožení drážní dopravy (pád stromu).
+CZ	HEATING / TEPLÁRENSTVÍ	District Heating / Teplovody a výměníky	from equipment / od zařízení	2.5	Zákon č. 458/2000 Sb. § 87	2001	-	-	-	-
+CZ	TELECOM / KOMUNIKACE	Underground cables / Podzemní komunikační vedení	from outer cable / od krajního vedení	0.5	Zákon č. 127/2005 Sb. § 102	2022	-	-	-	-
+SK	ELECTRICITY / ELEKTRINA	Overhead lines 1 kV - 35 kV (Bare) / Nadzemné vedenie (bez izolácie)	from outer conductor / od krajného vodiča	10	Zákon č. 251/2012 Z. z. § 43	2012	Zák. 251/2012 Z.z. § 91	330 EUR	150 000 EUR	Protection zone breach; operation hazard / Porušenie ochranného pásma; ohrozenie prevádzky.
+SK	ELECTRICITY / ELEKTRINA	Overhead lines 1 kV - 35 kV (Bare - Forest) / Nadzemné vedenie (bez izolácie - les)	in forest clearings / v lesných priesekoch	7	Zákon č. 251/2012 Z. z. § 43	2012	-	-	-	-
+SK	ELECTRICITY / ELEKTRINA	Overhead lines 1 kV - 35 kV (Insulated) / Nadzemné vedenie (izolované)	from outer conductor / od krajného vodiča	4	Zákon č. 251/2012 Z. z. § 43	2012	-	-	-	-
+SK	ELECTRICITY / ELEKTRINA	Overhead lines 1 kV - 35 kV (Insulated - Forest) / Nadzemné vedenie (izolované - les)	in forest clearings / v lesných priesekoch	2	Zákon č. 251/2012 Z. z. § 43	2012	-	-	-	-
+SK	ELECTRICITY / ELEKTRINA	Overhead lines 1 kV - 35 kV (Suspended) / Nadzemné vedenie (zavesený kábel)	from cable / od kábla	1	Zákon č. 251/2012 Z. z. § 43	2012	-	-	-	-
+SK	ELECTRICITY / ELEKTRINA	Overhead lines 35 kV - 110 kV / Nadzemné vedenie VN/VVN	from outer conductor / od krajného vodiča	15	Zákon č. 251/2012 Z. z. § 43	2012	Zák. 251/2012 Z.z. § 91	330 EUR	330 000 EUR	Sanction increases with voltage / Sankcia sa zvyšuje s napätím.
+SK	ELECTRICITY / ELEKTRINA	Overhead lines 110 kV - 220 kV / Nadzemné vedenie VVN	from outer conductor / od krajného vodiča	20	Zákon č. 251/2012 Z. z. § 43	2012	-	-	-	-
+SK	ELECTRICITY / ELEKTRINA	Overhead lines 220 kV - 400 kV / Nadzemné vedenie VVN	from outer conductor / od krajného vodiča	25	Zákon č. 251/2012 Z. z. § 43	2012	-	-	-	-
+SK	ELECTRICITY / ELEKTRINA	Overhead lines > 400 kV / Nadzemné vedenie ZVN	from outer conductor / od krajného vodiča	35	Zákon č. 251/2012 Z. z. § 43	2012	-	-	-	-
+SK	GAS / PLYN	Gas Pipeline < 0.4 MPa / Plynovod STL	to each side / na každú stranu	4	Zákon č. 251/2012 Z. z. § 79	2012	Zák. 251/2012 Z.z. § 91	330 EUR	500 000 EUR	Endangering network safety / Za ohrozenie bezpečnosti siete.
+SK	GAS / PLYN	Gas Pipeline 0.4 - 4.0 MPa (VTL) / Plynovod VTL do DN 350	to each side / na každú stranu	8	Zákon č. 251/2012 Z. z. § 79	2012	-	-	-	-
+SK	GAS / PLYN	Gas Pipeline > 4.0 MPa (VVTL) / Plynovod VVTL	to each side / na každú stranu	50	Zákon č. 251/2012 Z. z. § 79	2012	-	-	-	-
+SK	WATER_SEWAGE / VODA A KANALIZÁCIA	Pipe diameter < 500 mm / Potrubie do priemeru 500 mm	from outer face / od vonkajšieho obrysu	1.5	Zákon č. 442/2002 Z. z. § 19	2002	-	-	-	-
+SK	WATER_SEWAGE / VODA A KANALIZÁCIA	Pipe diameter > 500 mm / Potrubie nad priemerom 500 mm	from outer face / od vonkajšieho obrysu	2.5	Zákon č. 442/2002 Z. z. § 19	2002	-	-	-	-
+SK	HEATING / TEPLO	Heating lines (Urban) / Teplovod (v zastavanom území)	from equipment / od zariadenia	1	Zákon č. 657/2004 Z. z. § 36	2005	-	-	-	-
+SK	HEATING / TEPLO	Heating lines (Rural) / Teplovod (mimo zastavaného územia)	from equipment / od zariadenia	3	Zákon č. 657/2004 Z. z. § 36	2005	-	-	-	-
+SK	ROADS / CESTY	Highway / Diaľnica a rýchlostná cesta	from axis of adjacent lane / od osi priľahlého jazdného pásu	100	Vyhláška č. 35/1984 Zb. § 15	1984	Zák. 135/1961 Zb. § 22c	660 EUR	33 190 EUR	Unauthorized activity in road zone / Pokuta za nepovolenú činnosť v cestnom ochrannom pásme.
+SK	ROADS / CESTY	Class I Road / Cesta I. triedy	from road axis / od osi vozovky	50	Vyhláška č. 35/1984 Zb. § 15	1984	-	-	-	-
+SK	ROADS / CESTY	Class II Road / Cesta II. triedy	from road axis / od osi vozovky	25	Vyhláška č. 35/1984 Zb. § 15	1984	-	-	-	-
+SK	ROADS / CESTY	Class III Road / Cesta III. triedy	from road axis / od osi vozovky	20	Vyhláška č. 35/1984 Zb. § 15	1984	-	-	-	-
+SK	RAILWAYS / ŽELEZNICE	Railway lines / Dráha	from track axis / od osi koľaje	60	Zákon č. 513/2009 Z. z.	2009	-	-	-	-
+SK	TELECOM / TELEKOMUNIKÁCIE	Underground lines / Podzemné vedenie	plus maintenance duty / plus povinnosť údržby	0.5	Zákon č. 452/2021 Z. z. § 23	2022	Zákon č. 452/2021 Z.z.	1 000 EUR	2% of turnover	Fine up to 2% of turnover or 300k EUR / Sankcia až do 2 % z obratu alebo 300 000 EUR.
+PL	ELECTRICITY / ELEKTRYCZNOŚĆ	Overhead lines < 1 kV / Linie napowietrzne < 1 kV	from outer conductor / od skrajnego przewodu	3	PN-E-05100-1:1998	1998	-	-	-	-
+PL	ELECTRICITY / ELEKTRYCZNOŚĆ	Overhead lines 1 kV - 45 kV / Linie napowietrzne SN	from outer conductor / od skrajnego przewodu	5	PN-E-05100-1:1998	1998	Pr. energ. Art. 56	Restoration costs	15% revenue	Model based on company turnover / Model oparty na obrocie firmy.
+PL	ELECTRICITY / ELEKTRYCZNOŚĆ	Overhead lines 110 kV / Linie napowietrzne WN 110 kV	from outer conductor / od skrajnego przewodu	10	PN-E-05100-1:1998	1998	-	-	-	-
+PL	ELECTRICITY / ELEKTRYCZNOŚĆ	Overhead lines 220 kV / Linie napowietrzne NN 220 kV	from outer conductor / od skrajnego przewodu	20	PN-E-05100-1:1998	1998	-	-	-	-
+PL	ELECTRICITY / ELEKTRYCZNOŚĆ	Overhead lines 400 kV / Linie napowietrzne NN 400 kV	from outer conductor / od skrajnego przewodu	30	PN-E-05100-1:1998	1998	-	-	-	-
+PL	GAS / GAZOWNICTWO	Gas Pipeline DN < 150 / Gazociąg DN < 150	controlled zone / strefa kontrolowana	10	Rozporządzenie Ministra Gospodarki	2013	-	-	-	-
+PL	GAS / GAZOWNICTWO	Gas Pipeline DN 150 - 300 / Gazociąg DN 150 - 300	controlled zone / strefa kontrolowana	20	Rozporządzenie Ministra Gospodarki	2013	-	-	-	-
+PL	GAS / GAZOWNICTWO	Gas Pipeline DN > 500 / Gazociąg DN > 500	controlled zone / strefa kontrolowana	50	Rozporządzenie Ministra Gospodarki	2013	-	-	-	-
+PL	ROADS / DROGI	National Roads / Drogi krajowe	from edge of carriageway / od krawędzi jezdni	25	Ustawa o drogach publicznych	1985	Ustawa o drogach Art. 40	10x fee amount	10x fee amount	Automatic admin fine (10x fee) / Automatyczna kara admin. (10-krotność opłaty).
+PL	ROADS / DROGI	Voivodeship Roads / Drogi wojewódzkie	from edge of carriageway / od krawędzi jezdni	15	Ustawa o drogach publicznych	1985	-	-	-	-
+PL	RAILWAYS / KOLEJE	Railway lines (Trees) / Linie kolejowe (Dla drzew)	from track axis / od osi toru	15	Ustawa o transporcie kolejovým	2003	Ustawa o transp. kol.	Admin. Fine	Admin. Fine	Hazard to railway safety / Zagrożenie bezpieczeństwa ruchu kolejowego.
+AT	ELECTRICITY / ELEKTRIZITÄT	Medium Voltage / Mittelspannung	safety distance / Sicherheitsabstand	5	Starkstromwegegesetz 1968	1968	Starkstromwegegesetz § 23	7 000 EUR	7 000 EUR	Risk of imprisonment if unpaid / Risiko der Ersatzfreiheitsstrafe bei Nichtzahlung.
+AT	ELECTRICITY / ELEKTRIZITÄT	High Voltage > 110 kV / Hochspannung	safety distance / Sicherheitsabstand	25	ÖVE/ÖNORM EN 50341	2024	-	-	-	-
+AT	GAS / GASLEITUNGEN	High Pressure Gas / Hochdruckleitungen	building ban area / Bauverbotsbereich	4	Gaswirtschaftsgesetz 2011	2011	GWG 2011 § 159	50 000 EUR	50 000 EUR	Admin offense - fine by district office / Verwaltungsübertretung - Strafe durch Bezirksbehörde.
+AT	ROADS / STRASSEN	Federal Roads / Bundesstraßen	building ban area / Bauverbotsbereich	25	Bundesstraßengesetz 1971	1971	-	-	-	-
+AT	ROADS / STRASSEN	Autobahn / Autobahn	building ban area / Bauverbotsbereich	40	Bundesstraßengesetz 1971	1971	BStG 1971 § 26	726 EUR	2 180 EUR	Fine for breach of building ban / Strafe bei Verletzung des Anbauverbotes.
+AT	RAILWAYS / EISENBAHN	Railway / Eisenbahn	danger zone / Gefahrenbereich	25	Eisenbahngesetz 1957	1957	-	-	-	-
+AT	FOREST / WALD	Proximity to Forest / Waldnähe	falling tree risk zone / Gefahrenzone umstürzender Bäume	30	Forstgesetz 1975 § 14	1975	-	-	-	-
+DE	ELECTRICITY / ELEKTRIZITÄT	Overhead lines < 1 kV / Freileitung < 1 kV	vegetation clearance / Schutzabstand	1	VDE 0105-100 / EnWG § 49	2015	-	-	-	-
+DE	ELECTRICITY / ELEKTRIZITÄT	Overhead lines 1 - 110 kV / Freileitung 1 - 110 kV	clearance zone / Schutzbereich	3	VDE 0105-100	2015	EnWG § 95	100 000 EUR	100 000 EUR	Administrative offense / Ordnungswidrigkeit.
+DE	ELECTRICITY / ELEKTRIZITÄT	High Voltage > 110 kV / Hochspannung > 110 kV	from conductor swing / vom ausgeschwungenen Seil	25	DIN EN 50341-3-4	2019	-	-	-	-
+DE	ROADS / STRASSEN	Federal Roads / Bundesstraßen	building ban / Anbauverbot	20	FStrG § 9 Abs. 1 Nr. 2	1953	-	-	-	-
+DE	ROADS / STRASSEN	Autobahn / Autobahn	building ban / Anbauverbot	40	FStrG § 9 Abs. 1 Nr. 1	1953	FStrG § 23	500 EUR	5 000 EUR	Duty to remove construction/vegetation / Verpflichtung zur Beseitigung der Anlage/Anpflanzung.
+DE	ROADS / STRASSEN	Traffic Safety Trees / Verkehrssicherheit Bäume	obstacle free zone / Hindernisfreier Raum	7.5	RPS 2009	2009	-	-	-	-
+DE	RAILWAYS / EISENBAHNEN	Railway / Eisenbahn	risk area / Gefahrenbereich	25	AEG § 14	1993	-	-	-	-
+DE	WATER_SEWAGE / WASSER	Water mains (Standard) / Wasserleitungen (Standard)	standard protection / Schutzstreifen	2.5	DVGW W 400-1	2018	WHG / BGB	Repair Costs	Repair Costs	Compensation for repair costs / Ersatz von Reparaturkosten bei Beschädigung.
+DE	WATER_SEWAGE / WASSER	Water mains (Protected) / Wasserleitungen (Geschützt)	with protective sleeve / mit Schutzrohr	1.5	DVGW W 400-1	2018	-	-	-	-
