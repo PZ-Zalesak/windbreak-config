@@ -32,8 +32,8 @@ SK,ELECTRICITY / ELEKTRINA,Overhead lines > 400 kV / Nadzemné vedenie ZVN,from 
 SK,GAS / PLYN,Gas Pipeline < 0.4 MPa / Plynovod STL,to each side / na každú stranu,4,"Zákon č. 251/2012 Z. z. § 79",2012,"Zák. 251/2012 Z.z. § 91",330 EUR,500 000 EUR,Endangering network safety / Za ohrozenie bezpečnosti siete.
 SK,GAS / PLYN,Gas Pipeline 0.4 - 4.0 MPa (VTL) / Plynovod VTL do DN 350,to each side / na každú stranu,8,"Zákon č. 251/2012 Z. z. § 79",2012,-,-,-,-
 SK,GAS / PLYN,Gas Pipeline > 4.0 MPa (VVTL) / Plynovod VVTL,to each side / na každú stranu,50,"Zákon č. 251/2012 Z. z. § 79",2012,-,-,-,-
-SK,WATER_SEWAGE / VODA A KANALIZÁCIA,Pipe diameter < 500 mm / Potrubie do priemeru 500 mm,from outer face / od vonkajšieho obrysu,1.5,"Zákon č. 442/2002 Z. z. § 19",2002,-,-,-,-
-SK,WATER_SEWAGE / VODA A KANALIZÁCIA,Pipe diameter > 500 mm / Potrubie nad priemerom 500 mm,from outer face / od vonkajšieho obrysu,2.5,"Zákon č. 442/2002 Z. z. § 19",2002,-,-,-,-
+SK,WATER_SEWAGE / VODA A KANALIZÁCIA,Pipe diameter < 500 mm / Potrubie do priemeru 500 mm,from outer face / od vonkajšieho obrysu,1.8,"Zákon č. 442/2002 Z. z. § 19",2002,-,-,-,-
+SK,WATER_SEWAGE / VODA A KANALIZÁCIA,Pipe diameter > 500 mm / Potrubie nad priemerom 500 mm,from outer face / od vonkajšieho obrysu,3.0,"Zákon č. 442/2002 Z. z. § 19",2002,-,-,-,-
 SK,HEATING / TEPLO,Heating lines (Urban) / Teplovod (v zastavanom území),from equipment / od zariadenia,1,"Zákon č. 657/2004 Z. z. § 36",2005,-,-,-,-
 SK,HEATING / TEPLO,Heating lines (Rural) / Teplovod (mimo zastavaného územia),from equipment / od zariadenia,3,"Zákon č. 657/2004 Z. z. § 36",2005,-,-,-,-
 SK,ROADS / CESTY,Highway / Diaľnica a rýchlostná cesta,from axis of adjacent lane / od osi priľahlého jazdného pásu,100,Vyhláška č. 35/1984 Zb. § 15,1984,"Zák. 135/1961 Zb. § 22c",660 EUR,33 190 EUR,Unauthorized activity in road zone / Pokuta za nepovolenú činnosť v cestnom ochrannom pásme.
